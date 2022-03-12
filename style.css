@@ -6,9 +6,9 @@
 
     /* El -- mas el nombre es para crear la variable */
     --black: #000000;
-    --white: @FFFFFF;
+    --white: #FFFFFF;
     --very-light-pink: #C7C7C7;
-    --text-input-field: #f7f7f7;
+    --text-input-field: #dcdcdc;
     --hospital-green: #ACD9B2;
 }
 
