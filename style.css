@@ -1,0 +1,26 @@
+
+
+/* PASO 1 organizar Colores */
+:root {
+    /* creamos los 5 colores base en variables */
+
+    /* El -- mas el nombre es para crear la variable */
+    --black: #000000;
+    --white: @FFFFFF;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #ACD9B2;
+}
+
+/* PASO 2 escoger la fuente de letra*/
+
+/* vamos a google fonts, y escogemos las fuentes */
+/* buscamos la Quicksand */
+
+body{
+    /* este font-family, lo sacamos de google fonts y lo pegamos */
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* PASO 3 Estilo de diseño
+Nos dirigimos a shopify */
