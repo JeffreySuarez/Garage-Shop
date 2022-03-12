@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>FormularioRegistro</title>
+</head>
+
+<body>
+    <section class="login">
+        <div class="form-container">
+            <img src="/src/logos/logo_yard_sale.svg" alt="logo" class="logo">
+
+
+
+            <!-- creamos un formulario de autenticacion -->
+            <form action="/" class="form">
+                <label for="email" class="label">Email address</label>
+                <input type="email" id="email" placeholder="Write your email" class="input input-email">
+
+                <label for="new-password" class="label">Password</label>
+                <input type="password" id="new-password" placeholder="********" class="input input-password">
+
+                <!-- creamos el boton -->
+
+                <input type="submit" value="Log in" class="primary-button login-button">
+
+                <p class="resend">
+                    <a href="/">Forgot my password</a>
+                </p>
+
+
+
+            </form>
+
+
+            <input type="submit" value="Sign up" class="secondary-button signup-button">
+
+        </div>
+    </section>
+
+</body>
+
+</html>
